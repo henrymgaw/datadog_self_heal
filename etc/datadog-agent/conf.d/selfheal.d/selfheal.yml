@@ -1,0 +1,4 @@
+init_config:
+instances:
+  - name: "Self Heal Trigger"
+    command: "/etc/datadog-agent/checks.d/selfheal.sh"
